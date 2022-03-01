@@ -1,0 +1,4 @@
+#Git ignore Node Modules
+node_modules/
+#Ignore Environment Variables
+.env
