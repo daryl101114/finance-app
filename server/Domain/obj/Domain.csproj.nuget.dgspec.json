@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj": {
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\santillan.j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Daryl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santillan.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

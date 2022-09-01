@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\API\\API.csproj": {}
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\API\\API.csproj": {
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\santillan.j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\API\\obj\\",
+        "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Daryl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santillan.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\Application.csproj"
+              "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\Application.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -67,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\Application.csproj": {
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\santillan.j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Daryl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santillan.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,11 +99,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj"
+              "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -113,6 +117,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -128,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj": {
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\santillan.j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Daryl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santillan.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,6 +177,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -182,21 +198,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\santillan.j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Daryl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santillan.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,8 +226,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\santillan.j\\Desktop\\finance-app\\server\\Domain\\Domain.csproj"
+              "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Daryl\\Desktop\\finance-project\\server\\Domain\\Domain.csproj"
               }
             }
           }
@@ -225,6 +241,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -240,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

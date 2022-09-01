@@ -1,0 +1,15 @@
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\Daryl\Desktop\finance-project\server\Persistence\obj\Debug\net6.0\ref\Persistence.dll
