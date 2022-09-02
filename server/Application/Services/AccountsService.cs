@@ -21,7 +21,7 @@ namespace Application.Services
         IOptions<MongoDBSettings> MongoDatabaseSettings)
         {
             var mongoClient = new MongoClient(
-                "mongodb+srv://jdsantil:Jbdeha5z*@cluster0.yhkrx.mongodb.net/?retryWrites=true&w=majority");
+                "mongodb+srv://jdsantil:<Password>@cluster0.yhkrx.mongodb.net/?retryWrites=true&w=majority");
 
             var mongoDatabase = mongoClient.GetDatabase(
                 "financeDB");
