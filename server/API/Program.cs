@@ -8,21 +8,15 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MongoDB.Bson;
-
+using Domain.Entities;
+using Application.Services;
 namespace API
 {
     public class Program
     {
         public static void Main(string[] args)
-        {
-            MongoClient client = new MongoClient("mongodb+srv://jdsantil:Jbdeha5z*@cluster0.yhkrx.mongodb.net/?retryWrites=true&w=majority");
+        {        
 
-            List<string> databases = client.ListDatabaseNames().ToList();
-
-            foreach (string database in databases)
-            {
-                Console.WriteLine(database);
-            }
             CreateHostBuilder(args).Build().Run();
         }
 

@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Domain.Entities;
+using Application.Services;
+using API.Infrastructure;
 
 namespace API
 {
@@ -32,6 +35,12 @@ namespace API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
             });
+            //Add MongoDB Service
+            // services.Configure<Accounts>(Configuration.GetSection("MongoDB"));
+            //services.AddSingleton<MongoDBServices>();
+            // Register Dependency Injection application services.
+            var containerConfigurator = new DiConfigurator(Configuration);
+            containerConfigurator.Configure(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +63,7 @@ namespace API
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 }
